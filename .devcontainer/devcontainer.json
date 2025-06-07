@@ -9,6 +9,7 @@
     	"ghcr.io/devcontainers/features/java:1": {
 			"installMaven": true,
 			"mavenVersion": "3.8.6"
+			// latest[maven 3.9.9] version will failed install at 2025/06/07: see README.md
 		}
 	},
 
