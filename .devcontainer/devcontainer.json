@@ -6,12 +6,22 @@
 	"image": "mcr.microsoft.com/devcontainers/java:1-21-bullseye",
 
 	"features": {
+    	"ghcr.io/devcontainers/features/java:1": {
+			"installMaven": true,
+			"mavenVersion": "3.8.6"
+		}
 	},
+
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"vmware.vscode-boot-dev-pack",
-				"redhat.vscode-xml"
+				"redhat.java",
+				"vscjava.vscode-java-debug",
+				"vscjava.vscode-java-test",
+				"vscjava.vscode-maven",
+				"vscjava.vscode-java-dependency",
+				"VisualStudioExptTeam.vscodeintellicode",
+				"esbenp.prettier-vscode"
 			]
 		}
 	}
