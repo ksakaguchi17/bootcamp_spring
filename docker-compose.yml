@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  firstapp:
+    build: 
+      context: .
+      args:
+        MAVEN_VERSION: $MAVEN_VERSION
+    image: firstapp:dev
+    ports:
+      - "8080:8080"

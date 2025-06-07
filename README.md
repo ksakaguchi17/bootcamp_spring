@@ -57,6 +57,24 @@ package: example.firstapp
 
 ![Congratulations!!](doc/setup1.png)
 
+## Update Project
+
+```bash
+cd firstapp
+mvn clean install
+```
+
+If the project build is successful, the `target` directory is created.
+
+## Build & Deploy Project
+
+```bash
+docker-compose up --build
+# stop with ctrl+C 
+```
+
+Access http://localhost:8080
+
 ## Note
 
 ### Maven version
