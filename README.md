@@ -1,11 +1,17 @@
 # bootcamp_spring
 
-## Setup project
+## Requirements
 
-> https://maven.apache.org/archetypes/maven-archetype-webapp/
+- Docker must be installed on the host machine.
+
+## Setup Project
+
+Perform the following steps on the Dev Container.
 
 ```bash
 mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-webapp -DarchetypeVersion=1.5
+
+# https://maven.apache.org/archetypes/maven-archetype-webapp/
 ```
 
 |property|value|
