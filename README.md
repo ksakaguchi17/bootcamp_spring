@@ -75,6 +75,9 @@ docker-compose up --build
 
 Access http://localhost:8080
 
+![sample-top](doc/sample-top.png)
+
+
 ## Note
 
 ### Maven version

@@ -21,7 +21,8 @@
 				"vscjava.vscode-maven",
 				"vscjava.vscode-java-dependency",
 				"VisualStudioExptTeam.vscodeintellicode",
-				"esbenp.prettier-vscode"
+				"esbenp.prettier-vscode",
+				"redhat.vscode-xml"
 			]
 		}
 	}
