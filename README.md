@@ -1,5 +1,19 @@
 # bootcamp_spring
 
+## Overview
+
+このプロジェクトではSpringフレームワーク学習のための演習を行います。  
+参考：翔泳社「[Spring徹底入門 Spring FrameworkによるJavaアプリケーション開発](https://www.shoeisha.co.jp/book/detail/9784798142470)」
+
+
+This project provides exercises for learning the Spring framework.  
+Referring: Shoeisha's “[Spring徹底入門 Spring FrameworkによるJavaアプリケーション開発](https://www.shoeisha.co.jp/book/detail/9784798142470)”.
+
+> [!NOTE]
+> 2025/06/14時点で改訂版の[第2版](https://www.shoeisha.co.jp/book/detail/9784798187105)が出版されています。  
+> A revised [2nd edition](https://www.shoeisha.co.jp/book/detail/9784798187105) has been published as of 2025/06/14.
+
+
 ## Requirements
 
 - Docker must be installed on the host machine.
